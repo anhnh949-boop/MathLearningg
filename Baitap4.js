@@ -5,7 +5,7 @@ const questions = [
   { id: "k1",  answer: 90 },
 ];
 
-const mcAnswers = { c1: "C", c2: "A1", c3: "A2", c4: "D3", c5: "D4" };
+const mcAnswers = { c1: "C", c2: "A1", c3: "A2", c4: "C3", c5: "D4" };
 
 function parseNumber(text) {
   text = text.trim().replace(",", ".");
