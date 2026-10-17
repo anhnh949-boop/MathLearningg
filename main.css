@@ -1,0 +1,87 @@
+h1 {
+    color:rgb(54, 95, 177);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.first-heading {
+    color:darkblue;
+    font-size: 20px;
+}
+.title-1 {
+    color:cadetblue;
+    font-size: 20px;
+}
+
+.box {
+    margin-left: 603px;
+    width: 339px;
+    height: 334 px;
+    padding-right: 100 px;
+    background-color: rgba(230, 244, 245, 0.73);
+    box-sizing: border-box;
+    left: 100px;
+    align-content: center;
+
+}
+
+.header {
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, #CFEBFC, #6EC2F7);
+    box-sizing: border-box;
+}
+
+.t2::first-line {
+    color:rgb(36, 34, 182);
+    font-style: italic;
+    font-size: 50px;
+}
+
+.t2 {
+    margin-left: 356px;
+    
+}
+
+.pieces {
+    color:rgb(28, 69, 146);
+    font-size: 20px;
+}
+
+.heading2 {
+    color:darkturquoise;
+    font-size: 30px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 430px;
+    height: 43px;
+}
+
+.GTLG {
+    display: flex;
+    justify-content:space-between;
+}
+
+.correct { border: 2px solid green; background: #d4f8d4; }
+.wrong   { border: 2px solid red;   background: #fcd4d4; }
+
+label.correct { color: green; font-weight: bold; }
+label.wrong   { color: red; }
+
+.he2 {
+    color:blue;
+    font-size: 20px;
+}
+
+button {
+  background: var(--blue);
+  color: rgb(49, 17, 137);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+button:hover { background: var(--blue-dark); }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<!-- Phần đầu -->
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="baitap.css">
+<script src="Baitap2-1.js"></script>
+<script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<!-- Phần thân -->
+ <body>
+    <div class = "header"> </div>
+    <div>
+        <h2 style = "color:rgb(0, 125, 209)"> Phần ôn tập </h2>
+    </div>
+    <div>
+        <h4 class="card1"> Câu 1: Câu nào sau đây là SAI: </h4>
+        <label><input type="radio" name = "cau1" value ="a" > sin(a + b) = sina.cosb + cosa.sinb </label><br>
+        <label><input type="radio" name = "cau1" value ="b"> tan(a + b) = \(\frac{tana + tanb}{ 1 - tana.tanb}\) </label><br>
+        <label><input type="radio" name = "cau1" value ="c"> tan(a - b) = \(\frac{tana - tanb}{ 1 + tana.tanb}\) </label><br>
+        <label><input type="radio" name = "cau1" value ="d"> cos( a - b ) = cosa.cosb - sina.sinb </label><br>
+        </div>
+
+    <div>
+    <h4 class="card1"> Câu 2: sin( a + b ) = ? </h4>
+    <label><input type="radio" name = "cau2" value ="a1"> sin(a + b) = sina.cosb + cosa.sinb </label><br>
+    <label><input type="radio" name = "cau2" value ="b1"> sin(a + b) = \(\frac{tana + tanb}{ 1 - tana.tanb}\) </label><br>
+    <label><input type="radio" name = "cau2" value ="c1"> sin(a + b) = \(\frac{tana - tanb}{ 1 + tana.tanb}\) </label> <br>
+    <label><input type="radio" name = "cau2" value ="d1"> sin( a + b ) = cosa.cosb - sina.sinb </label><br>
+    </div>
+
+    <div>
+    <h4 class="card1"> Câu 3: Câu nào sau đây là ĐÚNG? </h4>
+    <label><input type="radio" name = "cau3" value ="a2"> sin2a = sin.cos </label><br>
+    <label><input type="radio" name = "cau3" value ="b2"> cos2a = 2sin²a - 1 </label><br>
+    <label><input type="radio" name = "cau3" value ="c2"> sin2a = 2sina.cosa </label><br>
+    <label><input type="radio" name = "cau3" value ="d2"> cos2a = sin²a - cos²a </label><br>
+    </div>
+
+    <div>
+    <h4 class="card1"> Câu 4: Hãy cho biết, tan( a - b) = ?</h4>
+    <label><input type="radio" name = "cau4" value ="a3"> tan(a - b) = sina.cosb + cosa.sinb </label><br>
+    <label><input type="radio" name = "cau4" value ="b3"> tan(a - b) = \(\frac{tana + tanb}{ 1 - tana.tanb}\) </label><br>
+    <label><input type="radio" name = "cau4" value ="c3"> tan(a - b) = \(\frac{tana - tanb}{ 1 + tana.tanb}\) </label><br>
+    <label><input type="radio" name = "cau4" value ="d3"> tan( a - b ) = cosa.cosb - sina.sinb </label><br>
+    </div>
+
+    <div>
+        <h4 class="card1"> Câu 5: Ta có: A = sin(6x + \(\frac{π}{2}\)), chọn đáp án đúng: </h4>
+        <label> <input type="radio" name = "cau5" value ="a4"> A = sin6x.sin\(\frac{π}{2}\) + cos6x.sin\(\frac{π}{2}\)</label>
+        <label> <input type="radio" name = "cau5" value ="b4"> A = sin6x.cos\(\frac{π}{2}\) + cos6x.sin\(\frac{π}{2}\)</label>
+        <label> <input type="radio" name = "cau5" value ="c4"> A = cos6x.cos\(\frac{π}{2}\) + cos6x.sin\(\frac{π}{2}\)</label>
+        <label> <input type="radio" name = "cau5" value ="d4"> A = sin6x.cos\(\frac{π}{2}\) + sin6x.sin\(\frac{π}{2}\)</label>
+    </div>
+    <button onclick="checkAnswers()"> Kiểm tra đáp án </button>
+<p id ="result1"></p>
+    <a href="Bai2-tt.html"> Đi đến phần kiến thức tiếp theo!</a>
+ </body>
+</html>

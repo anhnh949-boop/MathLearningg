@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu -->
+    <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="bai1.css">
+<script src="Baitap1-2.js"></script>
+<script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+
+    <!-- Phần thân -->
+<body>
+    <div class = "header"> </div>
+    <div>
+        <h2 style = "color:rgb(0, 125, 209)"> Phần ôn tập </h2>
+    </div>
+
+    <div>
+        <h4 class="card1"> Tính các giá trị lượng giác của góc α, biết: </h4>
+        <p> 1. cosα = \(\frac{1}{5}\) ( 0 < α < \(\frac{π}{2}\)) </p>
+    <label><input name = "q1"
+    type ="radio" value ="A"> sinα = \(\frac{2\sqrt{6}}{5}\) </label><br>
+    <label><input name = "q1"
+    type ="radio" value ="B"> sinα = - \(\frac{2\sqrt{6}}{5}\) </label><br>
+    <label><input name = "q1" 
+    type ="radio" value ="C"> sinα = \(\frac{11\sqrt{6}}{5}\) </label><br>
+    <label><input name = "q1"
+    type ="radio" value ="D"> sinα = \(\frac{7\sqrt{6}}{5}\) </label><br>
+     <p> 2. sinα = \(\frac{2}{3}\) ( \(\frac{π}{2}\) < α < π ) </p>
+    <label><input name = "q2"
+    type ="radio" value ="A1"> cosα = \(\frac{2\sqrt{5}}{5}\) </label><br>
+    <label><input name = "q2"
+    type ="radio" value ="B1"> cosα = - \(\frac{2\sqrt{5}}{5}\) </label><br>
+    <label><input name = "q2"
+    type ="radio" value ="C1"> cosα = - \(\frac{\sqrt{5}}{3}\) </label><br>
+    <label><input name = "q2"
+    type ="radio" value ="D1"> cosα = \(\frac{\sqrt{5}}{3}\) </label><br>
+
+    </div>
+
+    <div>
+        <h4 class="card1"> Câu nào sau đây SAI </h4>
+    <label><input name = "q3"
+    type ="radio" value ="A2"> cos-α = cosα </label><br>
+    <label><input name = "q3"
+    type ="radio" value ="B2"> sin-α = -sinα </label><br>
+    <label><input name = "q3"
+    type ="radio" value ="C2"> cot-α = -cotα </label><br>
+    <label><input name = "q3"
+    type ="radio" value ="D2"> tan-α = tanα </label><br>
+    </div>
+
+    <div> <h4 class="card1"> Cho tanα = 1, khi đó </h4> <p> cotα = <input type="text" id = "cot"> </p> </div>
+
+    <div>
+        <h4 class="card1"> Cho cotα = \(\sqrt{3}\) </h4>
+        <p> sinα = <input type="text" id = "sin"></p>
+    </div>
+<button onclick="checkAnswers()"> Kiểm tra đáp án </button>
+<p id ="result"></p>
+    <a href="Bai2.html"> Đi đến bài học tiếp theo! </a>
+
+</body>
+
+</html>

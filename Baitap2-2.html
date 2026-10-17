@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<!-- Phần đầu -->
+ <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="baitap.css">
+<script src="Baitap2-2.js" ></script>
+<title> Phần ôn tập </title>
+<script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+ </head>
+
+ <!-- Phần thân -->
+  <body>
+    <div class = "header"> </div>
+    <div>
+        <h2 style = "color:rgb(0, 125, 209)"> Phần ôn tập </h2>
+    </div>
+    <div>
+        <h4 class="card1"> Câu 1: Công thức nào sau KHÔNG ĐÚNG</h4>
+    <input type="radio" name = "i" value ="a"> cosa + cosb = 2cos\(\frac{a + b}{2}\)cos\(\frac{a - b}{2}\) <br>
+    <input type="radio" name = "i" value="b"> cosa - cosb = -2sin\(\frac{a + b}{2}\)sin\(\frac{a - b}{2}\) <br>
+    <input type="radio" name = "i" value="c"> sina + sinb = 2sin\(\frac{a + b}{2}\)cos\(\frac{a - b}{2}\) <br>
+    <input type="radio" name = "i" value ="d"> sina - sinb = -2cos\(\frac{a + b}{2}\)sin\(\frac{a - b}{2}\) <br>
+    </div>
+    <div>
+    <h4 class="card1"> Câu 2: Cho A = cos7x + cosπ, biến đổi từ tổng thành tích, ta được </h4>
+    <label> <input type="radio" name = "2" value="A"> A = 2.cos7x.cosπ </label> <br>
+    <label> <input type="radio" name = "2" value="B"> A = -2.cos7x.cosπ </label> <br>
+    <label> <input type="radio" name = "2" value="C"> A = 2.cos7x.sinπ </label> <br>
+    <label> <input type="radio" name = "2" value="D"> A = 2.sin7x.cosπ </label> <br>
+    </div>
+
+    <div> <h4 class="card1">Câu 3: Cho B = sina - sinb, biến đổi thành tích, ta được: </h4>
+    <label> <input type="radio" name = "3" value="A1"> -2cos\(\frac{a + b}{2}\)sin\(\frac{a - b}{2}\) </label> <br>
+    <label> <input type="radio" name = "3" value="B1"> 2cos\(\frac{a + b}{2}\)sin\(\frac{a - b}{2}\) </label> <br>
+    <label> <input type="radio" name = "3" value="C1"> -2cos\(\frac{a + b}{2}\)cos\(\frac{a - b}{2}\)</label> <br>
+    <label> <input type="radio" name = "3" value="D1"> -2sin\(\frac{a + b}{2}\)sin\(\frac{a - b}{2}\) </label> <br>
+    </div>
+    <div>
+    <h4 class="card1"> Câu 4: Thu gọn biểu thức B = sin7x + sin3x </h4>
+    <label> <input type="radio" name ="ii" value ="a2"> -sin7x.cos3x</label> <br>
+    <label> <input type="radio" name ="ii" value ="b2"> -2sin7x.cos3x</label> <br>
+    <label> <input type="radio" name ="ii" value ="c2"> 2sin7x.cos3x</label> <br>
+    <label> <input type="radio" name ="ii" value ="d2"> 2cos7x.sin3x</label> <br>
+    </div>
+
+    <div>
+    <h4 class="card1"> Câu 5: Câu nào sau đây ĐÚNG </h4>
+    <label> <input type="radio" name="iii" value ="a3"> cosa.cosb = \(\frac{1}{2}\)[cos(a + b) + cos(a - b)]</label> <br>
+    <label> <input type="radio" name="iii" value ="b3"> cosa.cosb = \(\frac{1}{2}\)[cos(a + b) + sin(a - b)]</label> <br>
+    <label> <input type="radio" name="iii" value ="c3"> cosa.cosb = \(\frac{1}{2}\)[sin(a + b) + cos(a - b)]</label> <br>
+    <label> <input type="radio" name="iii" value ="d3"> cosa.cosb = - \(\frac{1}{2}\)[cos(a + b) + cos(a - b)]</label> <br>
+    </div>
+
+    <div>
+    <h4 class="card1"> Câu 6: biến đổi biểu thức A = cos5x.cos2x thành tổng, ta được: </h4>
+    <label> <input type="radio" name ="6" value ="a4"> \(\frac{1}{2}\)(cos7x + cos3x)</label> <br>
+    <label> <input type="radio" name ="6" value ="b4"> cos7x + cos3x </label> <br>
+    <label> <input type="radio" name ="6" value ="c4"> \(\frac{1}{2}\)(sin7x - sin3x)</label> <br>
+    <label> <input type="radio" name ="6" value ="d4"> \(\frac{1}{2}\)(cos7x - cos3x)</label> <br>
+    </div>
+    <div>
+    </div>
+    <button onclick="checkAnswers()"> Kiểm tra đáp án </button>
+<p id ="result2.2"></p>
+<a href="Bai3.html"> Đi đến phần kiến thức tiếp theo </a>
+
+  </body>
+</html>

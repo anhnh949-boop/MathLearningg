@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu -->
+<head>
+    <title> Phần ôn tập</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bai1.css">
+    <script src="Baitap1-1.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<!-- Phần thân -->
+<body>
+    <div class = "header"> </div>
+    <div>
+        <h2 style = "color:rgb(0, 125, 209)"> Phần ôn tập </h2>
+    </div>
+    <div>
+<h4 class="card1"> Câu 1: Đổi các số đo sau từ độ sang radian:</h4>
+<p> 360° = <input type="text" id = "c1a"> π </p>
+<p> -450° = <input type="text" id ="c1b"> π </p>
+    </div>
+
+    <div>
+<h4 class="card1"> Câu 2: Đổi các số đo sau từ radian sang độ: </h4>
+<p> 3π = <input type="text" id ="c2a">°</p> 
+<p> \(\frac{-11π}{5}\) = <input type="text" id ="c2b">°</p> 
+    </div>
+
+    <div>
+<h4 class = "card2"> Câu 3: Một đường tròn có bán kính 20cm . Tìm độ dài của các cung trên đường tròn đó có số đo
+sau: </h4>
+<p> α = \(\frac{π}{12}\) </p>
+<p> l = <input type="text" id="c3a"></p>
+<p> α = 1.5 </p>
+<p> l = <input type="text" id="c3b"></p>
+<button onclick="checkAnswers()"> Kiểm tra đáp án </button>
+<p id ="rs"></p>
+    </div>
+
+    <div>
+        <a href="Bai1-tt.html"> Đi đến phần kiến thức tiếp theo! </a>
+    </div>
+
+</body>
+
+
+</html>

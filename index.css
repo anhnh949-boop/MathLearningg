@@ -1,0 +1,74 @@
+:root {
+  --blue: #007dd1;
+  --blue-dark: #0a4f86;
+  --bg: #f3f8fc;
+  --text: #1f2d3d;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Be Vietnam Pro", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Phần đầu trang */
+.header h1 { margin: 0; font-size: 2.4rem; }
+.header p  { margin: 8px 0 0; opacity: 0.9; }
+
+/* Khung nội dung căn giữa */
+.container {
+  max-width: 760px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.first-heading {
+  font-size: 1.15rem;
+  color: var(--blue-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-left: 5px solid var(--blue);
+  padding-left: 12px;
+}
+
+/* Danh sách bài học dạng thẻ */
+.lesson-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.lesson-list li { margin-bottom: 12px; }
+
+.lesson-list a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  color: var(--text);
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.lesson-list a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 125, 209, 0.2);
+}
+
+/* Số thứ tự tròn */
+.num {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}

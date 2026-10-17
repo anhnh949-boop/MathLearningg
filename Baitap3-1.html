@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<!-- Phần đầu -->
+ <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+<script src="Baitap3-1.js"></script>
+<link rel="stylesheet" href="baitap.css">
+<title> Phần ôn tập </title>
+<script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+ </head>
+
+ <!-- Phần thân -->
+<body>
+    <div class = "header"> </div>
+    <div>
+        <h2 style = "color:rgb(0, 125, 209)"> Phần ôn tập </h2>
+    </div>
+    <div>
+       <h4 class="card1"> Câu 1: Tìm tập xác định của y = \(\frac{1}{1 + cosα}\)</h4> 
+<label> <input type="radio" name = "y" value ="a"> \(\cosα \ne -1\) </label> <br>
+<label> <input type="radio" name="y" value ="b"> \(\cosα \ne 1\)</label> <br>
+<label> <input type="radio" name="y" value ="c"> \(\cosα \ne 0\)</label> <br>
+<label> <input type="radio" name="y" value ="d"> \(\cosα \ne -2\)</label> <br>
+    </div>
+
+    <div>
+        <h4 class="card1"> Câu 2: Tìm tập xác định của y = \(\sqrt{sinα}\) </h4>
+<label> <input type="radio" name ="y1" value ="a1"> \(\sinα \ge -2\)</label> <br>
+<label> <input type="radio" name="y1" value="b1"> \(\sinα \ge 0\)</label> <br>
+<label> <input type="radio" name="y1" value="c1"> \(\sinα \le 0\)</label> <br>
+<label> <input type="radio" name="y1" value="d1"> \(\sinα \le 2\)</label> <br>
+    </div>
+
+    <div>
+        <h4 class="card1"> Câu 3: Cho y = sinx, có tập giá trị là gì? </h4>
+   <label> <input type="radio" name = "y2" value ="a2"> [-1;1] </label><br>
+    <label><input type="radio" name = "y2" value ="b2"> [0;π] </label><br>
+    <label><input type="radio" name = "y2" value="c2"> [\(\frac{-π}{2}\);\(\frac{π}{2}\)] </label><br>
+    <label><input type="radio" name = "y2" value="d2"> [-π;π] </label><br> 
+    </div>
+    <div>
+    <h4 class="card1"> Câu 4: tanα xác định khi: </h4>
+    <label><input type="radio" name ="y3" value ="a3"> \(\cosα \ne 0\) </label> <br>
+    <label><input type="radio" name ="y3" value ="b3"> \(\sinα \ne 0\) </label> <br>
+    <label><input type="radio" name ="y3" value ="c3"> \(\cosα \ne -1\) </label> <br>
+    <label><input type="radio" name ="y3" value ="d3"> \(\sinα \ne -1\) </label> <br>
+    </div>
+
+     <div>
+    <h4 class="card1"> Câu 5: cotα xác định khi: </h4>
+    <label><input type="radio" name ="y4" value ="a4"> \(\cosα \ne 0\) </label> <br>
+    <label><input type="radio" name ="y4" value ="b4"> \(\sinα \ne 0\) </label> <br>
+    <label><input type="radio" name ="y4" value ="c4"> \(\cosα \ne -1\) </label> <br>
+    <label><input type="radio" name ="y4" value ="d4"> \(\sinα \ne -1\) </label> <br>
+    </div>
+<button onclick="checkAnswers()"> Kiểm tra đáp án </button>
+<p id ="result3"></p>
+<a href="Bai3-tt.html">Di đến phần kiến thức tiếp theo!</a>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu -->
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+<title> Bài 2: Công thức lượng giác </title>
+<link rel="stylesheet" href="baihoc.css">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<!-- Phần thân -->
+<body>
+    <div class = "header"> </div>
+    <main class="container">
+    <h1 style ="color:blue"> Bài 2: Công thức lượng giác </h1>
+    <div>
+    <h2 style = "color:cornflowerblue"> Kiến thức trọng tâm: </h2>
+<ul>
+    <li class = "heading2"> Công thức cộng </li>
+    <h4> "sin thì sin cos cos sin" </h4>
+    <p> sin( a + b )  = sina.cosb + cosa.sinb </p>
+    <p> sin ( a - b ) = sina.cosb - cosa.sinb</p>
+    <h4> "cos thì cos cos sin sin dấu trừ" </h4>
+    <p> cos ( a + b ) = cosa.cosb - sina.sinb </p>
+    <p> cos( a - b ) = cosa.cosb + sina.sinb</p>
+    <h4> "tan thì ta tổng hai tan, chia cho 1 trừ tan ta tan mình" </h4>
+    <p> tan ( a + b ) = \(\frac{tana + tanb}{ 1 - tana.tanb}\)</p>
+    <p> tan ( a - b ) = \(\frac{tana - tanb}{1 + tana.tanb}\)</p>
+
+    <li class = "heading2"> Công thức nhân đôi </li>
+    <p> sin2a = 2sina.cosa</p>
+    <p>cos2a = cos²a - sin²a = 1 - 2sin²a = 2cos²a - 1</p>
+    <p> tan2a = \(\frac{2tan}{1 - tan²a}\)</p>
+
+    <h4 class = "heading2"> Chứng minh công thức nhân đôi </h4>
+    <p> sin2a = sin( a + a) = sina.cosa + cosa.sina = 2sina.cosa </p>
+    <p> cos2a = cos( a + a) = cosa.cosa - sina.sina = cos²a - sin²a (1)</p>
+    <p> Ta có: sin²a + cos²a = 1 (*)=> cos²a = 1 - sin²a, thay vào (1) => (1) = 1 - sin²a - sin²a = 1 - 2sin²a</p>
+    <p> Từ (*) => sin²a = 1 - cos²a, thay vào (1)=> (1) = cos²a - ( 1 - cos²a ) = cos²a - 1 + cos²a = 2cos²a - 1 </p>
+    <p> tan2a = tan( a + a ) = \(\frac{tana + tana}{1 - tana.tana}\) = \(\frac{2tana}{1 - tan²a}\)</p>
+
+
+
+</ul>
+</main>
+<a href="Baitap2-1.html"> Đi đến phần ôn tập! </a>
+
+
+    </div>
+</body>
+
+</html>
